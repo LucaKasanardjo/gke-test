@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: europe-west1.-docker.pkg.dev/k8s-537022-project/my-app-images/my-app:test@sha256:f01e22c300dc62cdb42f137706c1244445914e114b21fb08c98c4072f0d45ca8
+        image: europe-west1.-docker.pkg.dev/k8s-537022-project/my-app-images/my-app:test
         ports:
         - containerPort: 80
